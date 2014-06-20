@@ -1,0 +1,26 @@
+* { margin: 0; padding: 0; list-style: none; border: none; }
+html, body { height: 100%; }
+body, input, select, textarea { font-size: 18px; font-family: Arial, sans-serif; color: #3A4145; }
+
+body { min-width: 300px; }
+
+h1, h2, h3, h4, h5, h6 { line-height: 1em; }
+
+a {
+    text-decoration: none;
+    color: #CCC;
+
+    -webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+}
+a:hover {
+    color: #96A9D3;
+}
+
+@font-face {
+    font-family: GeekByte;
+    src: url('GeekAByte.eot'),
+         url('GeekAByte.ttf'),
+         url('GeekAByte.woff');
+}

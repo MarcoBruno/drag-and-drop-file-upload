@@ -1,0 +1,15 @@
+.fleft { float: left; }
+.fright { float: right; }
+.clear { clear: both; }
+
+.space-bottom-small { margin-bottom: 20px; }
+.space-bottom-medium { margin-bottom: 40px; } 
+.space-bottom-big { margin-bottom: 60px; }
+
+.space-right-small { margin-right: 10px; }
+
+.title {
+    font-family: GeekByte, sans-serif;
+    font-size: 50px;
+    color: #5073BA;
+}

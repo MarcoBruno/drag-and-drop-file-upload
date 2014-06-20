@@ -1,0 +1,16 @@
+{
+  "name": "drag-and-drop-file-upload",
+  "version": "1.0.0",
+  "description": "Drag and Drop File Upload",
+  "main": "server.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarcoBruno/drag-and-drop-file-upload"
+  },
+  "author": "Marco Bruno",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.4.3",
+    "hbs": "~2.6.0"
+  }
+}

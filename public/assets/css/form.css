@@ -1,0 +1,56 @@
+.form-title {
+    font-size: 25px;
+    color: #000;
+}
+.form-text {
+    border: 1px solid #CCC;
+    box-shadow: 0px 1px 3px #DDD inset;
+    border-radius: 4px;
+    padding: 5px 8px;
+    height: 22px;
+    line-height: 22px;
+
+    -webkit-transition: all 0.5s linear;
+        -moz-transiton: all 0.5s linear;
+            transition: all 0.5s linear;
+}
+.form-text:focus {
+    border-color: #6D8CCE;
+    box-shadow: 0px 1px 3px #EEE inset;
+    outline: none;
+}
+.btn {
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2px;
+
+    -webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+            transition: all 0.2s linear:
+}
+.btn-primary {
+    background-color: #6D8CCE;
+    color: #FFF;
+}
+.form-action:hover { background-color: #5073BA; }
+
+.wrap-form-upload {
+    position: relative;
+    overflow: hidden;
+    height: 34px;
+    line-height: 34px; 
+}
+.form-upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}

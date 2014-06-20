@@ -1,7 +1,7 @@
 (function (document) {
     'use strict';
 
-    var $btnupload = document.getElementById('btnupload'),
+    var $btnupload = document.getElementById('article-singup-upload'),
         $uploadfile = document.getElementById('uploadfile'); 
 
     $btnupload.addEventListener('change', function () {

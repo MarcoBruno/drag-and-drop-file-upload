@@ -55,11 +55,11 @@
     filter: alpha(opacity=0);
 }
 
-.form-drag-and-drop {
+#form-drag-and-drop {
     border: 4px dotted #BFBFBF;
     border-radius: 5px;
     height: 100px;
-    width: 100%;
+    width: 492px; 
 }
 .drag-and-drop-label {
     text-align: center;

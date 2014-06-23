@@ -46,17 +46,20 @@
             </fieldset><!-- .fright -->
 
             <fieldset class="clear">
-                <label for="article-signup-upload" class="form-label">File or Folder Upload</label>            
+                <label for="article-signup-upload" class="form-label">Files Upload</label>            
                 
-                <input id="uploadfile" class="form-text fleft space-right-small space-bottom-small" value="" type="text" disabled="disabled">
-                <filendset class="wrap-form-upload btn btn-primary fleft">
+                <input id="uploadfile" class="form-text fleft space-right-small space-bottom-small" type="text" disabled="disabled">
+                <filendset class="wrap-form-upload btn btn-primary fright">
                     <span>Upload</span>
-                    <input id="article-singup-upload" class="form-upload" type="file" name="upload">
+                    <input id="article-singup-upload" class="form-upload" type="file" name="upload[]" multiple="multiple">
                 </filendset><!-- .wrap-form-upload-->
 
-                <fieldset class="form-drag-and-drop space-bottom-medium">
-                    <label class="drag-and-drop-label">Drag and drop files/folders from your desktop</label>                                        
-                </fieldset><!-- .form-drag-and-drop -->
+                <fieldset id="form-drag-and-drop">
+                    <label class="drag-and-drop-label">or Drag and drop files/folders from your desktop</label>                                        
+                </fieldset><!-- #form-drag-and-drop -->
+
+                <label class="form-label">Files/Folder to Upload</label>
+                <label id="output" class="space-bottom-medium"></label>
     
                 <input id="article-signup-action" class="btn btn-primary clear" type="submit" value="Submit" tabindex="7">
             </fieldset>

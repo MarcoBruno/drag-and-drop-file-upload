@@ -63,7 +63,6 @@
     var ParseFile = function (file) {
         Output(
             "<p>File information: <strong>" + file.name +
-            "</strong><p>Qtd: <strong>" + file. +
             "</strong></p>"
         );
     };

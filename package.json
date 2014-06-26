@@ -11,6 +11,7 @@
   "license": "MIT",
   "devDependencies": {
     "express": "^4.4.3",
+    "body-parser": "^1.2.2",
     "hbs": "~2.6.0"
   }
 }

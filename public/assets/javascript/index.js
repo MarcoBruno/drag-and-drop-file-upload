@@ -4,14 +4,6 @@
     var $btnupload = document.getElementById('article-singup-upload'),
         $uploadfile = document.getElementById('uploadfile'); 
 
-    var loop = function (elements, callback) {
-        var max = elements.length;
-
-        while (max--) {
-            callback(elements[max]);
-        };
-    };
-
     // file drag hover
     var FileDragHover = function (e) {
         e.stopPropagation();
@@ -27,7 +19,7 @@
         var files = e.target.files || e.dataTransfer.files;
     
         // process all File objects
-        loop(files, function (file) {
+        util.loop(files, function (file) {
             ParseFile(file);
         });
     };

@@ -6,24 +6,24 @@
 
         <fieldset class="fleft space-bottom-small">
             <label for="article-signup-first-name" class="form-label">First Name</label>
-            <input id="article-signup-first-name" class="form-text space-bottom-small" name="first-name" type="text" placeholder="e.g., Marco" tabindex="1" autofocus>
+            <input id="article-signup-first-name" class="form-text space-bottom-small" name="first-name" type="text" placeholder="e.g., Marco" tabindex="1" autofocus required="required">
 
             <label for="article-signup-email" class="form-label">Email</label>
-            <input id="article-signup-email" class="form-text space-bottom-small" name="email" type="text" placeholder="marco.bruno.br@gmail.com" tabindex="3">
+            <input id="article-signup-email" class="form-text space-bottom-small" name="email" type="email" placeholder="marco.bruno.br@gmail.com" tabindex="3" required="required">
 
             <label for="article-signup-password" class="form-label">Password</label>
-            <input type="article-signup-password" class="form-text space-bottom-small" name="password" type="password" placeholder="********" tabindex="5">
+            <input id="article-signup-password" class="form-text space-bottom-small" name="password" type="password" placeholder="********" tabindex="5" required="required">
         </fieldset><!-- .fleft -->
 
         <fieldset class="fright space-bottom-small">
             <label for="article-signup-last-name" class="form-label">Last Name</label>
-            <input id="article-signup-last-name" class="form-text space-bottom-small" name="last-name" type="text" placeholder="Bruno" tabindex="2" autofocus>
+            <input id="article-signup-last-name" class="form-text space-bottom-small" name="last-name" type="text" placeholder="Bruno" tabindex="2" required="required">
 
             <label for="article-signup-re-enter-email" class="form-label">Re-enter Email</label>
-            <input id="article-signup-re-enter-email" class="form-text space-bottom-small" name="re-enter-email" type="text" placeholder="marco.bruno.br@gmail.com" tabindex="4">
+            <input id="article-signup-re-enter-email" class="form-text space-bottom-small" name="re-enter-email" type="email" placeholder="marco.bruno.br@gmail.com" tabindex="4" required="required">
 
             <label for="article-signup-re-enter-password" class="form-label">Re-enter Password</label>
-            <input type="article-signup-re-enter-password" class="form-text space-bottom-small" name="re-enter-password" type="text" placeholder="********" tabindex="6">
+            <input id="article-signup-re-enter-password" class="form-text space-bottom-small" name="re-enter-password" type="password" placeholder="********" tabindex="6" required="required">
         </fieldset><!-- .fright -->
 
         <fieldset class="clear">
@@ -32,7 +32,7 @@
             <input id="uploadfile" class="form-text fleft space-right-small space-bottom-small" type="text" disabled="disabled">
             <filendset class="wrap-form-upload btn btn-primary fright">
                 <span>Upload</span>
-                <input id="article-singup-upload" class="form-upload" type="file" name="upload[]" multiple="multiple">
+                <input id="article-singup-upload" class="form-upload" type="file" name="upload[]" multiple="multiple" required="required">
             </filendset><!-- .wrap-form-upload-->
 
             <fieldset id="form-drag-and-drop">

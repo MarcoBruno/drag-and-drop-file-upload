@@ -30,21 +30,19 @@
     padding-right: 20px;
     border-radius: 2px;
 
-    -webkit-transition: all 0.2s linear;
-       -moz-transition: all 0.2s linear;
-            transition: all 0.2s linear:
+    -webkit-transition: background-color 0.2s linear;
+       -moz-transition: background-color 0.2s linear;
+            transition: background-color 0.2s linear:
 }
 .btn-primary {
     background-color: #6D8CCE;
     color: #FFF;
 }
-.form-action:hover { background-color: #5073BA; }
+.btn-primary:hover { background-color: #5073BA; }
 
 .wrap-form-upload {
     position: relative;
     overflow: hidden;
-    height: 34px;
-    line-height: 34px; 
 }
 .form-upload {
     position: absolute;

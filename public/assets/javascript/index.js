@@ -24,6 +24,7 @@
             filedrag = document.getElementById('form-drag-and-drop'); 
          
         fileselect.addEventListener('change', function (event) {
+            console.log(this);
             FileApi.dragHover(event);
             FileApi.selectMultiple(event, ParseFile); 
         }, false);

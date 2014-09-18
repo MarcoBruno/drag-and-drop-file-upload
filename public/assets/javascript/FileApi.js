@@ -1,4 +1,4 @@
-var FileApi = (function (document) {
+var FileApi = (function () {
     'use strict';
     
     var module = {};
@@ -19,4 +19,4 @@ var FileApi = (function (document) {
         selectMultiple: module.selectMultiple
     };
 
-})(document);
+})();

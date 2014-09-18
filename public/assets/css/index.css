@@ -24,10 +24,7 @@
 #uploadfile { width: 380px; }
 #output {
     display: block;
-    border: 4px solid #BFBFBF; 
-    border-radius: 5px;
     min-height: 80px;
     min-width: 360px;
-    padding: 10px
 }
 #form-drag-and-drop { margin-bottom: 20px; }

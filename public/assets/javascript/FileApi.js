@@ -9,6 +9,7 @@ var FileApi = (function () {
     };
 
     module.selectMultiple = function (event, callback) {
+        //crossbrowser
         var files = event.target.files || event.dataTransfer.files;
 
         callback(files);
